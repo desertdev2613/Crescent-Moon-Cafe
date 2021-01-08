@@ -4,6 +4,90 @@
 @import "reserve.css"; 
 
 /* Google fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Darker+Grotesque:wght@300&family=Righteous&display=swap');
+
 /* Variables - constants */ 
 
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+:root {
+  /*font-family*/
+  --ff-heading: font-family: 'Abril Fatface', cursive;
+  --ff-subheading:font-family: 'Righteous', cursive;
+  --ff-text: font-family: 'Darker Grotesque', sans-serif;
+  /*font-weight*/
+  --fw-thin: 100;
+  --fw-reg: 300; 
+  --fw-bold: 900; 
+  /*colors*/
+  --clr-light: #fefcfa; 
+  --clr-dark: #303030; 
+  --clr-accent: #55645b; 
+  /*font-size*/
+  --fs-h1: 3rem; 
+  --fs-h2: 2.25rem; 
+  --fs-h3: 1.25rem; 
+  --fs-body: 1rem; 
+  /*box-shadow*/
+  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 
+        0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    /*padding*/
+    --border-padding: 3rem;
+} 
+
+h1 {
+    color: var(--clr-light);
+    font-family:  var(--ff-heading);
+    font-size: var(--fs-h1);
+}
+
 /* mobile first design */ 
+body {
+    background-image: url("https://images.unsplash.com/photo-1542372278607-8348fa374a16?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: var(--ff-text);
+    height: 100vh;
+    padding: var(--border-padding);
+}
+
+section#homepage-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65vh;
+}
+
+ul#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 65vh;
+}
+
+ul#menu li {
+    background-color: var(--clr-light);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul#menu li a {
+    color: var(--clr-dark);
+    cursor: pointer;
+    text-decoration: none;
+}
+
