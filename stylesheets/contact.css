@@ -10,14 +10,10 @@
     padding: var(--border-padding);
 }
 
-h1 {
+h1 a  {
     color: black;
+    text-decoration: none;
     margin-bottom: 30px;
-}
-
-h2 {
-    color: var(--clr-light);
-    font-family: var(--ff-subheading);
 }
 
 .fa {
@@ -33,31 +29,6 @@ form {
     height: 50vh;
 }
 
-.underlay-contact-input {
-    background:var(--clr-accent);
-    border-radius: var(--border-radius);
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 60vw;
-    max-width: 500px;
-    margin: 10px 0; 
-
-}
-
-.overlay-contact-input {
-    border-radius: var(--border-radius);
-    padding: var(--input-padding);
-    width: 60vw;
-}
-
-input {
-    border: none;
-    outline: none;
-    box-shadow: var(--bs);
-    height: 5vh;
-}
-
 textarea, 
 button {
     border: none;
@@ -68,17 +39,12 @@ button {
 
 textarea {
     width: 60vw;
+    outline: none;
     max-width: 500px;
     margin-top: 30px;
 }
 
-button {
- background: var(--clr-accent);
- color: var(--clr-light);
- margin-top: 30px;
-}
-
-footer {
+.footer-contact {
     display:flex;
     flex-direction: column;
     justify-content: space-between;

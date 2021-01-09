@@ -1,0 +1,43 @@
+@import "styles.css";
+
+#body-reserve {
+   background:var(--clr-light);
+   padding:var(--border-padding);
+}
+
+select {
+    outline: none;
+    padding: var(--input-padding);
+}
+
+input[type="button"]{
+    border-radius: var(--border-radius);
+    margin: 8px; 
+    padding: var(--input-padding);
+}
+
+#reserve-form {
+    /* background: black; */
+    border-radius: var(--border-radius);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    height: 70vh;
+}
+
+.res-subtitle {
+    color: var(--clr-dark);
+}
+
+section.res-footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 15vh; 
+    padding: var(--input-padding);
+    text-align: left;
+}
+
+.res-footer span {
+        font-weight: var(--fw-bold);  
+}

@@ -42,11 +42,49 @@
     --border-radius:12px;
 } 
 
+button {
+    background: var(--clr-accent);
+    color: var(--clr-light);
+    margin-top: 30px;
+   }
+
 h1 {
     color: var(--clr-light);
     font-family:  var(--ff-heading);
     font-size: var(--fs-h1);
 }
+
+h2 {
+    color: var(--clr-light);
+    font-family: var(--ff-subheading);
+}
+
+input {
+    border: none;
+    outline: none;
+    box-shadow: var(--bs);
+    height: 5vh;
+}
+
+/* constant input styles */
+.underlay-contact-input {
+    background:var(--clr-accent);
+    border-radius: var(--border-radius);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    max-width: 500px;
+    margin: 10px 0; 
+
+}
+
+.overlay-contact-input {
+    border-radius: var(--border-radius);
+    padding: var(--input-padding);
+    width: 60vw;
+}
+
 
 /* mobile first design */ 
 body {

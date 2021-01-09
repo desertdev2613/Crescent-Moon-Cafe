@@ -5,11 +5,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CMCReserve</title>
+    <!-- font awesome -->
+    <script src="https://use.fontawesome.com/6b269bbaf5.js"></script>
+    <!-- stylesheets -->
     <link rel="stylesheet" href="./stylesheets/reserve.css">
 </head>
 
-<body>
+<body id="body-reserve">
+    <section id="navigation-contact">
+        <h1 class="brand-name"> <a href="index.html">Crescent Moon Cafe</a></h1>
+    </section>
 
+    <!-- <section> -->
+    <form action="#" id="reserve-form">
+        <div class="underlay-contact-input">
+            <i class="fa fa-pencil"> </i>
+            <input type="text" name="name" class="overlay-contact-input" placeholder="Name">
+        </div>
+        <div class="res-form-section">
+            <h2 class="res-subtitle">Date</h2>
+            <select name="date" id="date">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <select class="input-date" name="month" id="month">
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            <select class="input-date" name="year" id="year">
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+            </select>
+        </div>
+
+        <div class="res-form-section">
+            <h2 class="res-subtitle">Time</h2>
+            <input type="button" class="res-time-option" value="6pm">
+            <input type="button" class="res-time-option" value="7pm">
+            <input type="button" class="res-time-option" value="8pm">
+            <input type="button" class="res-time-option" value="9pm">
+            <input type="button" class="res-time-option" value="10pm">
+        </div>
+
+        <div class="res-form-section">
+            <h2 class="res-subtitle">Party Number</h2>
+            <input type="button" class="party-option" value="1">
+            <input type="button" class="party-option" value="2">
+            <input type="button" class="party-option" value="3">
+            <input type="button" class="party-option" value="4">
+            <input type="button" class="party-option" value="5">
+            <input type="button" class="party-option" value="6">
+            <input type="button" class="party-option" value="over 6">
+        </div>
+        <button type="submit">Reserve</button>
+    </form>
+    <!-- </section> -->
+
+    <section class="res-footer">
+        <p><span>*</span> Perfer to speak to a host? Reserve a table now!</p><br />
+        <p><span>Phone: </span>512-956-4569</p>
+    </section>
 </body>
 
 </html>
