@@ -33,10 +33,13 @@
   --fs-h3: 1.25rem; 
   --fs-body: 1rem; 
   /*box-shadow*/
-  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 
-        0.125em 0.125em 0.25em rgba(0,0,0,.15);
+  --bs: 0 10px 20px rgba(0,0,0,0.19), 
+        0 6px 6px rgba(0,0,0,0.23);
     /*padding*/
     --border-padding: 3rem;
+    --input-padding:.5rem;
+/*border*/
+    --border-radius:12px;
 } 
 
 h1 {

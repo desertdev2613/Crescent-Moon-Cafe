@@ -1,0 +1,116 @@
+@import "styles.css";
+
+#body-contact {
+    background-image: url(../images/mobile-contact.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: var(--ff-text);
+    height: 100vh;
+    padding: var(--border-padding);
+}
+
+h1 {
+    color: black;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: var(--clr-light);
+    font-family: var(--ff-subheading);
+}
+
+.fa {
+    padding: 0 5px 0 20px;
+    color: var(--clr-light);
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+.underlay-contact-input {
+    background:var(--clr-accent);
+    border-radius: var(--border-radius);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    max-width: 500px;
+    margin: 10px 0; 
+
+}
+
+.overlay-contact-input {
+    border-radius: var(--border-radius);
+    padding: var(--input-padding);
+    width: 60vw;
+}
+
+input {
+    border: none;
+    outline: none;
+    box-shadow: var(--bs);
+    height: 5vh;
+}
+
+textarea, 
+button {
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--bs);
+    padding: var(--input-padding);
+}
+
+textarea {
+    width: 60vw;
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+button {
+ background: var(--clr-accent);
+ color: var(--clr-light);
+ margin-top: 30px;
+}
+
+footer {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15vh;
+    padding: var(--input-padding);
+    margin-top: 50px;
+    text-align: left;
+}
+
+.social-icons ul {
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 60vw;
+}
+
+.social-icons .fa {
+    box-shadow: var(--bs);
+    border-radius: var(--border-radius);
+    color: var(--clr-dark);
+    cursor: pointer;
+    outline:none;
+    padding: 10px;
+}
+
+.social-icons .fa:hover {
+    background: black;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+                0 10px 10px rgba(0,0,0,0.22);
+    color:var(--clr-light);
+}
+
+.info-contact span {
+  font-weight: var(--fw-bold);  
+}
