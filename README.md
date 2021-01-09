@@ -7,3 +7,6 @@ You can route between pages, use css to apply amazing styles and javaScript to s
 - HTML 
 - CSS ( Flex box and Css Grid)
 - Javascript
+
+## Status
+- <p style="color:green">In progress 💻</p>
