@@ -1,7 +1,10 @@
 @import "styles.css";
 
 #body-reserve {
-   background:var(--clr-light);
+   background-image: url(../images/reserve-bg.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
    padding:var(--border-padding);
 }
 
@@ -12,6 +15,7 @@ select {
 
 input[type="button"]{
     border-radius: var(--border-radius);
+    cursor: pointer;
     margin: 8px; 
     padding: var(--input-padding);
 }
