@@ -15,3 +15,7 @@ You can route between pages, use css to apply amazing styles and javaScript to s
 <img src="./images/reserve-progress.png">
 
 <img src="./images/menu-progress.png">
+
+
+<video src="./video/filter.preview.mov" width="640" height="264" ></video>
+
