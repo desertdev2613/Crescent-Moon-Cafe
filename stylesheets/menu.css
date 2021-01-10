@@ -15,8 +15,17 @@ ul {
     display:flex; 
     list-style: none;
     justify-content: space-evenly;
+    align-items: cneter;
 }
 
+hr {
+    width: 50%;
+}
+
+.active {
+    background: var(--clr-light);
+
+}
 .menu-option {
     border: 2px solid var(--clr-dark);
     box-shadow: var(--bs);
