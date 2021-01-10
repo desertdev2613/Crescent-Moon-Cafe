@@ -71,6 +71,14 @@ input {
     height: 5vh;
 }
 
+.xs-img {
+height: 80px; 
+width: auto;
+position: absolute; 
+top:-20px; 
+right: -30px;
+}
+
 /* constant input styles */
 .underlay-contact-input {
     background:var(--clr-accent);

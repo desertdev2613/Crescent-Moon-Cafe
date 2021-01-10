@@ -13,3 +13,5 @@ You can route between pages, use css to apply amazing styles and javaScript to s
 
 ## Current progress images: 
 <img src="./images/reserve-progress.png">
+
+<img src="./images/menu-progress.png">
